@@ -19,5 +19,8 @@
     "mongoose": "^6.0.12",
     "n-readlines": "^1.0.1",
     "nodemon": "^2.0.14"
+  },
+  "engines": {
+    "node": "16.14.0"
   }
 }

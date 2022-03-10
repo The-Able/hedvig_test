@@ -14,6 +14,7 @@ function App() {
   },[])
 
   const getData = () => {
+    console.log(axios.baseURL);
     axios.get('/api/contracts')
       .then(res => {
         if(res.data){
